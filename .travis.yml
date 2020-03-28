@@ -7,7 +7,6 @@ matrix:
       - cd src
       - make clean
       - make all
-      - ./watts_strogatz.exe 1000 10 0.1
       - cd -
   - language: python
     python: 3.8
