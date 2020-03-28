@@ -1,7 +1,7 @@
 import subprocess, shutil, os
 from os.path import join
 from string import Template
-import numpy as np, pandas as pd
+import numpy as np
 import pytest
 
 
