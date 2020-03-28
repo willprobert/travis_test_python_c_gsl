@@ -4,6 +4,6 @@ before_install:
   - sudo apt-get update
   - sudo apt-get install python3 libgsl-dev
 install:
-  - pip3 install -r tests/requirements.txt
+  - pip install -r tests/requirements.txt
 script:
   - python3 -m pytest
