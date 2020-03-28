@@ -1,5 +1,6 @@
 language: generic
-python: 3.8
+dist: xenial
+python: 3.6.1
 before_install: sudo apt-get install libgsl-dev
 install:
   - pip install -r tests/requirements.txt
