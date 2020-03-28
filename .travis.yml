@@ -2,12 +2,13 @@ matrix:
   include:
   - language: c
       compiler: gcc
+      before_install: sudo apt-get install libgsl-dev
       script: 
         - cd src
         - make clean
         - make all
+        - ./watts_strogatz.exe 1000 10 0.1
         - cd -
-      before_install: sudo apt-get install libgsl-dev
   - language: python
     python: 3.8
     install:
