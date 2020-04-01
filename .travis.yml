@@ -1,7 +1,7 @@
 language: generic
 dist: xenial
-env: PYTHON_VERSION=3.6.2
-python: 3.6
+env: PYTHON_VERSION=3.7
+python: 3.7
 before_install: 
   - sudo apt-get update
   - sudo apt-get install libgsl-dev
