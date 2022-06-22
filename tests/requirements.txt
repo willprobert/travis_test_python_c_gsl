@@ -1,5 +1,5 @@
 attrs==19.3.0
-numpy==1.16.6
+numpy==1.22.0
 packaging==20.3
 pluggy==0.13.1
 ptyprocess==0.6.0
